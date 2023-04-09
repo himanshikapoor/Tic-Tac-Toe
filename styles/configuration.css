@@ -1,0 +1,72 @@
+#config-modal h2 {
+    margin: 0.5rem 0;
+}
+
+.form-control {
+    margin: 0.5rem 0;
+}
+
+.form-control label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-control input {
+    font: inherit;
+    border-radius: 4px;
+    padding: 0.35rem;
+    width: 40%;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+.form-control input:focus {
+    outline: 1px solid rgb(140, 0, 255);
+}
+
+.error input {
+    background-color: rgb(253, 219, 219);
+    border-color: rgb(136, 2, 2);
+    color: rgb(136, 2, 2);
+}
+
+.error :is(label, h2) {
+    color: rgb(136, 2, 2);
+}
+
+#game-config {
+    margin: 3rem auto;
+    text-align: center;
+    width: 90%;
+    max-width: 60rem;
+}
+
+#game-config ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#game-config li {
+    background-color: rgb(229, 213, 242);
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    margin: 1rem;
+    padding: 1rem;
+    width: 40%;
+}
+
+#game-config h3 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+    color: rgb(102, 54, 154);
+}
+
+.game-symbol {
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 0.5rem 0;
+    color: rgb(47, 4, 82);
+}
